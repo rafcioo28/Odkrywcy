@@ -1,0 +1,59 @@
+#mapa {
+    position: absolute;
+    width: 495px;
+    height: 675px;
+    background-size: 500px 700px;
+    border: 1px solid black;
+}
+
+#siatka {
+    position: absolute;
+    width: 495px;
+    height: 675px;
+}
+
+#siatka polygon {
+    position: absolute;
+    stroke: black;
+    stroke-opacity: 0.2;
+    stroke-width: 2;
+    fill-opacity: 0;
+}
+
+#siatka polygon:hover {
+    fill-opacity: 0.3;
+}
+
+#siatka .wybranyHex polygon{
+    fill: black;
+    fill-opacity: 0.2;
+}
+
+
+
+
+
+/*pomocnicze elementy */
+#idHexa {
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+}
+#teren {
+    position: absolute;;
+    top 10;
+    left: 520px;
+}
+
+
+#koordynatyWybrane {
+    position: absolute;
+    top: 60px;
+    left: 520px;
+}
+
+#koordynatyWskazane {
+    position: absolute;
+    top: 90px;
+    left: 520px;
+}
