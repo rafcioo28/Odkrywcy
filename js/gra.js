@@ -34,16 +34,16 @@ Odkrywcy.Gra = (function ($) {
         };
 
         var wybierzHexa = function(e) {
-            var wybranyHex = {};
-            wybranyHex.id = e.currentTarget.id;
-            var koordynaty = wybranyHex.id.split("_");
+            var wskazanyHex = {};
+            wskazanyHex.id = e.currentTarget.id;
+            var koordynaty = wskazanyHex.id.split("_");
             koordynaty[0] = parseInt(koordynaty[0]);
             koordynaty[1] = parseInt(koordynaty[1]);
-            console.log(koordynaty);
-            wybranyHex.x = koordynaty[0];
-            wybranyHex.z = koordynaty[1] - Math.floor(koordynaty[0] / 2);
-            wybranyHex.y = -wybranyHex.x - wybranyHex.z;
-            $('#koordynatyWskazane span').html("x: " + wybranyHex.x + " y: " + wybranyHex.y + " z: " + wybranyHex.z); // do usunięcia test wskazywanych koordynatwó siatki
+            wskazanyHex.x = koordynaty[0];
+            wskazanyHex.z = koordynaty[1] - Math.floor(koordynaty[0] / 2);
+            wskazanyHex.y = -wskazanyHex.x - wskazanyHex.z;
+            $('#koordynatyWskazane span').html("x: " + wskazanyHex.x + " y: " + wskazanyHex.y + " z: " + wskazanyHex.z); // do usunięcia test wskazywanych koordynatwó siatki
+            $('#odlegloscMiedzyHexami span').html((Math.abs(wskazanyHex.x - wybranyHex.x) + Math.abs(wskazanyHex.y - wybranyHex.y) + Math.abs(wskazanyHex.z - wybranyHex.z)) / 2);
         };
 
         var pobierzIdHexa = function(e) {
