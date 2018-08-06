@@ -29,6 +29,10 @@
     fill-opacity: 0.2;
 }
 
+#siatka .trasa polygon{
+    fill: red;
+    fill-opacity: 0.6;
+}
 
 
 

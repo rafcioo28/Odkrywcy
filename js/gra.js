@@ -6,6 +6,7 @@ Odkrywcy.Gra = (function ($) {
         var wybranyHex = {};
         var teren;
         var plansza = Odkrywcy.Plansza;
+        var trasa; // hexy pokazujące trasę miedzy wybranym a wskazywanym hexem
 
         /*
         mechaniki gry
@@ -13,7 +14,7 @@ Odkrywcy.Gra = (function ($) {
         this.startGry = function() {
             plansza.rysujMape();
             teren = plansza.pobierzTeren("M4");
-            $("#siatka g").click(zaznaczHexa);
+            $("#siatka g").click(zaznaczHexa);  // klikniecie hexa
             $("#siatka g").mouseenter(wybierzHexa);
         };
 
@@ -24,15 +25,14 @@ Odkrywcy.Gra = (function ($) {
             var terenTekst = "";
             for (let prop in teren[wybranyHex.id]) {
                 if(teren[wybranyHex.id][prop] === true){
-                    console.log(prop);
                     terenTekst += prop + "<br />";
                 }
             }
             $('#koordynatyWybrane span').html("x: " + wybranyHex.x + " y: " + wybranyHex.y + " z: " + wybranyHex.z); //Dp usunięcia, test wybranych koordynatów siatkio
             $('#teren').html(terenTekst);
-            console.log(wybranyHex);
         };
 
+        // ***************************** funkcja obsługujące najazd na hexa by określić wspórzędne
         var wybierzHexa = function(e) {
             var wskazanyHex = {};
             wskazanyHex.id = e.currentTarget.id;
@@ -43,7 +43,9 @@ Odkrywcy.Gra = (function ($) {
             wskazanyHex.z = koordynaty[1] - Math.floor(koordynaty[0] / 2);
             wskazanyHex.y = -wskazanyHex.x - wskazanyHex.z;
             $('#koordynatyWskazane span').html("x: " + wskazanyHex.x + " y: " + wskazanyHex.y + " z: " + wskazanyHex.z); // do usunięcia test wskazywanych koordynatwó siatki
-            $('#odlegloscMiedzyHexami span').html((Math.abs(wskazanyHex.x - wybranyHex.x) + Math.abs(wskazanyHex.y - wybranyHex.y) + Math.abs(wskazanyHex.z - wybranyHex.z)) / 2);
+            $('#odlegloscMiedzyHexami span').html(odlegloscMiedzyHexami(wybranyHex, wskazanyHex));
+            oznaczTrase(wybranyHex, wskazanyHex);
+
         };
 
         var pobierzIdHexa = function(e) {
@@ -57,6 +59,75 @@ Odkrywcy.Gra = (function ($) {
             wybranyHex.y = -wybranyHex.x - wybranyHex.z;
 
         };
+
+        var trasaMiedzyHexami = function(wybranyHex, wskazanyHex) {
+            var d = odlegloscMiedzyHexami(wybranyHex, wskazanyHex); //d - dystans między hexami
+            var liniaHexow = [];
+            for (let i = 0; i <= d; i += 1) {
+                liniaHexow.push(hexRound(hexLerp(wybranyHex, wskazanyHex, 1.0/d * i)));
+            }
+            return liniaHexow;
+        };
+
+        var odlegloscMiedzyHexami = function(wybranyHex, wskazanyHex) {
+            return (Math.abs(wskazanyHex.x - wybranyHex.x) + Math.abs(wskazanyHex.y - wybranyHex.y) + Math.abs(wskazanyHex.z - wybranyHex.z)) / 2;
+        };
+
+        var oznaczTrase = function(wybranyHex, wskazanyHex) {
+            var liniaHexow = trasaMiedzyHexami(wybranyHex, wskazanyHex);
+            $(".trasa").removeAttr("class");
+            for (let i = 1; i < liniaHexow.length - 1; i += 1){
+                var kolumna = liniaHexow[i].x;
+                var wiersz = liniaHexow[i].z + Math.floor(liniaHexow[i].x / 2);
+                var idHexa = kolumna + "_" + wiersz;
+                $('#' + idHexa).attr("class", "trasa");
+            }
+        };
+
+        // ************************ funkcle lerp i hexLerp - pomocnicze do wyznaczania trasy miedzy hexami *************************************
+        var lerp = function(a, b, t) {
+            return a + (b - a) * t;
+        };
+
+        var hexLerp = function(a, b, t) {
+            return {
+                x: lerp(a.x, b.x, t),
+                y: lerp(a.y, b.y, t),
+                z: lerp(a.z, b.z, t)
+            };
+
+        };
+
+        var hexRound = function(hex) {
+            var rx = Math.round(hex.x);
+            var ry = Math.round(hex.y);
+            var rz = Math.round(hex.z);
+
+            var x_diff = Math.abs(rx - hex.x);
+            var y_diff = Math.abs(ry - hex.y);
+            var z_diff = Math.abs(rz - hex.z);
+
+            if (x_diff > y_diff && y_diff > z_diff) {
+                rx = -ry - rz;
+            }
+            else if (y_diff > z_diff) {
+                ry = -rx - rz;
+            }
+            else {
+                rz = -rx - ry;
+            }
+
+            return {
+                x: rx,
+                y: ry,
+                z: rz
+            };
+
+        };
+
+
+
+        //***************************************************************************************************************************************
 
 
     };
