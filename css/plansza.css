@@ -2,7 +2,7 @@
     position: absolute;
     width: 495px;
     height: 675px;
-    background-size: 500px 700px;
+    background-size: 495px 675px;
     border: 1px solid black;
 }
 
@@ -65,5 +65,11 @@
 #odlegloscMiedzyHexami {
     position: absolute;
     top: 120px;
+    left: 520px;
+}
+
+#wyborMapy {
+    position: absolute;
+    bottom: 200px;
     left: 520px;
 }

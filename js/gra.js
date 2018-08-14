@@ -12,10 +12,17 @@ Odkrywcy.Gra = (function ($) {
         mechaniki gry
         */
         this.startGry = function() {
-            plansza.rysujMape();
-            teren = plansza.pobierzTeren("M4");
+            wczytajMape("m1");
             $("#siatka g").click(zaznaczHexa);  // klikniecie hexa
             $("#siatka g").mouseenter(wybierzHexa);
+            $("#wyborMapy select").change(function () {
+                wczytajMape($(this).val());
+            });
+        };
+
+        var wczytajMape = function(numerMapy){
+            plansza.rysujMape(numerMapy);
+            teren = plansza.pobierzTeren(numerMapy);
         };
 
         var zaznaczHexa = function(e) {
@@ -73,6 +80,7 @@ Odkrywcy.Gra = (function ($) {
             return (Math.abs(wskazanyHex.x - wybranyHex.x) + Math.abs(wskazanyHex.y - wybranyHex.y) + Math.abs(wskazanyHex.z - wybranyHex.z)) / 2;
         };
 
+        //************************ wytyczanie trasy między hexami *********************************************
         var oznaczTrase = function(wybranyHex, wskazanyHex) {
             var liniaHexow = trasaMiedzyHexami(wybranyHex, wskazanyHex);
             $(".trasa").removeAttr("class");
@@ -84,7 +92,7 @@ Odkrywcy.Gra = (function ($) {
             }
         };
 
-        // ************************ funkcle lerp i hexLerp - pomocnicze do wyznaczania trasy miedzy hexami *************************************
+        // ************************ funkcle lerp, hexRound i hexLerp - pomocnicze do wyznaczania trasy miedzy hexami *************************************
         var lerp = function(a, b, t) {
             return a + (b - a) * t;
         };
@@ -124,9 +132,6 @@ Odkrywcy.Gra = (function ($) {
             };
 
         };
-
-
-
         //***************************************************************************************************************************************
 
 

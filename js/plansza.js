@@ -6,14 +6,15 @@ Odkrywcy.Plansza = (function ($) {
     planszy z hexami
     */
     var plansza = {
-        rysujMape: function () {
+        rysujMape: function (numerMapy = "m1") {
             var siatka; // zmienna do budowy siatki hexów dodawana do SVG #siatka
             var koordynaty_x;
             var koordynaty_y;
+            var mapa = "img/mapy/" + numerMapy + ".jpg";
             /*
             załadowanie grafiki mapy
             */
-            $('#mapa').css("background-image", "url(img/mapy/m4.jpg)");
+            $('#mapa').css("background-image", "url(" + mapa + ")");
 
             //Pętle budujące siatkę
             for (let y = 0; y < 14; y += 1) { //kolumny
@@ -34,10 +35,10 @@ Odkrywcy.Plansza = (function ($) {
             $('#siatka').html(siatka); //wpisanie hexów do SVG siatki
 
         },
-        pobierzTeren: function(numer) {
+        pobierzTeren: function(numerMapy) {
 
-            switch(numer) {
-                case "M4":
+            switch(numerMapy) {
+                case "m4":
                 return planszaM4;
             }
         }
