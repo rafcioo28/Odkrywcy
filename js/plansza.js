@@ -52,6 +52,15 @@ Odkrywcy.Plansza = (function ($) {
 
                 case "m5":
                 return planszaM5;
+
+                case "m6":
+                return planszaM6;
+
+                case "m7":
+                return planszaM7;
+
+                case "m8":
+                return planszaM8;
             }
         }
 
@@ -83,7 +92,7 @@ var planszaM1 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -103,7 +112,7 @@ var planszaM1 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -123,7 +132,7 @@ var planszaM1 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -143,7 +152,7 @@ var planszaM1 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -163,7 +172,7 @@ var planszaM1 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -183,7 +192,7 @@ var planszaM1 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -203,7 +212,7 @@ var planszaM1 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -223,7 +232,7 @@ var planszaM1 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -244,7 +253,7 @@ var planszaM1 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -264,7 +273,7 @@ var planszaM1 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -284,7 +293,7 @@ var planszaM1 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       true
 
         },
@@ -304,7 +313,7 @@ var planszaM1 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -324,7 +333,7 @@ var planszaM1 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -344,7 +353,7 @@ var planszaM1 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -365,7 +374,7 @@ var planszaM1 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -385,7 +394,7 @@ var planszaM1 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -405,7 +414,7 @@ var planszaM1 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -425,7 +434,7 @@ var planszaM1 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       true
 
         },
@@ -445,7 +454,7 @@ var planszaM1 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -465,7 +474,7 @@ var planszaM1 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -485,7 +494,7 @@ var planszaM1 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -506,7 +515,7 @@ var planszaM1 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -526,7 +535,7 @@ var planszaM1 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      true,
+            budowlaObcych:      true,
             miastoObcych:       false
 
         },
@@ -546,7 +555,7 @@ var planszaM1 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -566,7 +575,7 @@ var planszaM1 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      true,
+            budowlaObcych:      true,
             miastoObcych:       false
 
         },
@@ -586,7 +595,7 @@ var planszaM1 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -606,7 +615,7 @@ var planszaM1 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -626,7 +635,7 @@ var planszaM1 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -647,7 +656,7 @@ var planszaM1 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -667,7 +676,7 @@ var planszaM1 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -687,7 +696,7 @@ var planszaM1 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -707,7 +716,7 @@ var planszaM1 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -727,7 +736,7 @@ var planszaM1 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      true,
+            budowlaObcych:      true,
             miastoObcych:       false
 
         },
@@ -747,7 +756,7 @@ var planszaM1 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -767,7 +776,7 @@ var planszaM1 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -788,7 +797,7 @@ var planszaM1 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -808,7 +817,7 @@ var planszaM1 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -828,7 +837,7 @@ var planszaM1 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -848,7 +857,7 @@ var planszaM1 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -868,7 +877,7 @@ var planszaM1 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -888,7 +897,7 @@ var planszaM1 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -908,7 +917,7 @@ var planszaM1 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -939,7 +948,7 @@ var planszaM2 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -959,7 +968,7 @@ var planszaM2 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -979,7 +988,7 @@ var planszaM2 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -999,7 +1008,7 @@ var planszaM2 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -1019,7 +1028,7 @@ var planszaM2 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -1039,7 +1048,7 @@ var planszaM2 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -1059,7 +1068,7 @@ var planszaM2 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -1079,7 +1088,7 @@ var planszaM2 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -1100,7 +1109,7 @@ var planszaM2 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -1120,7 +1129,7 @@ var planszaM2 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -1140,7 +1149,7 @@ var planszaM2 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -1160,7 +1169,7 @@ var planszaM2 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -1180,7 +1189,7 @@ var planszaM2 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -1200,7 +1209,7 @@ var planszaM2 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -1221,7 +1230,7 @@ var planszaM2 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -1241,7 +1250,7 @@ var planszaM2 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -1261,7 +1270,7 @@ var planszaM2 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -1281,7 +1290,7 @@ var planszaM2 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -1301,7 +1310,7 @@ var planszaM2 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -1321,7 +1330,7 @@ var planszaM2 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -1341,7 +1350,7 @@ var planszaM2 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -1362,7 +1371,7 @@ var planszaM2 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -1382,7 +1391,7 @@ var planszaM2 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -1402,7 +1411,7 @@ var planszaM2 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -1422,7 +1431,7 @@ var planszaM2 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -1442,7 +1451,7 @@ var planszaM2 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -1462,7 +1471,7 @@ var planszaM2 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -1482,7 +1491,7 @@ var planszaM2 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -1503,7 +1512,7 @@ var planszaM2 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -1523,7 +1532,7 @@ var planszaM2 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -1543,7 +1552,7 @@ var planszaM2 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -1563,7 +1572,7 @@ var planszaM2 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -1583,7 +1592,7 @@ var planszaM2 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -1603,7 +1612,7 @@ var planszaM2 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -1623,7 +1632,7 @@ var planszaM2 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -1644,7 +1653,7 @@ var planszaM2 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -1664,7 +1673,7 @@ var planszaM2 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -1684,7 +1693,7 @@ var planszaM2 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -1704,7 +1713,7 @@ var planszaM2 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -1724,7 +1733,7 @@ var planszaM2 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -1744,7 +1753,7 @@ var planszaM2 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -1764,7 +1773,7 @@ var planszaM2 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -1794,7 +1803,7 @@ var planszaM3 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -1814,7 +1823,7 @@ var planszaM3 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -1834,7 +1843,7 @@ var planszaM3 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -1854,7 +1863,7 @@ var planszaM3 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -1874,7 +1883,7 @@ var planszaM3 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -1894,7 +1903,7 @@ var planszaM3 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -1914,7 +1923,7 @@ var planszaM3 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -1934,7 +1943,7 @@ var planszaM3 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -1955,7 +1964,7 @@ var planszaM3 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -1975,7 +1984,7 @@ var planszaM3 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -1995,7 +2004,7 @@ var planszaM3 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -2015,7 +2024,7 @@ var planszaM3 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -2035,7 +2044,7 @@ var planszaM3 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -2055,7 +2064,7 @@ var planszaM3 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -2076,7 +2085,7 @@ var planszaM3 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -2096,7 +2105,7 @@ var planszaM3 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -2116,7 +2125,7 @@ var planszaM3 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -2136,7 +2145,7 @@ var planszaM3 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -2156,7 +2165,7 @@ var planszaM3 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -2176,7 +2185,7 @@ var planszaM3 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -2196,7 +2205,7 @@ var planszaM3 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -2217,7 +2226,7 @@ var planszaM3 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -2237,7 +2246,7 @@ var planszaM3 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -2257,7 +2266,7 @@ var planszaM3 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -2277,7 +2286,7 @@ var planszaM3 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -2297,7 +2306,7 @@ var planszaM3 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -2317,7 +2326,7 @@ var planszaM3 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -2337,7 +2346,7 @@ var planszaM3 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -2358,7 +2367,7 @@ var planszaM3 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -2378,7 +2387,7 @@ var planszaM3 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -2398,7 +2407,7 @@ var planszaM3 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -2418,7 +2427,7 @@ var planszaM3 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -2438,7 +2447,7 @@ var planszaM3 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -2458,7 +2467,7 @@ var planszaM3 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -2478,7 +2487,7 @@ var planszaM3 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -2499,7 +2508,7 @@ var planszaM3 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -2519,7 +2528,7 @@ var planszaM3 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -2539,7 +2548,7 @@ var planszaM3 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -2559,7 +2568,7 @@ var planszaM3 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -2579,7 +2588,7 @@ var planszaM3 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -2599,7 +2608,7 @@ var planszaM3 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -2619,7 +2628,7 @@ var planszaM3 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -2634,7 +2643,7 @@ var planszaM4 = {
 
 /**************** Kolumna 1 **********************/
         "0_0": {
-            rownina:            false,
+            rownina:            true,
             wzgorza:            false,
             gory:               false,
             urwisko:            false,
@@ -2649,13 +2658,13 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "0_1": {
             rownina:            false,
-            wzgorza:            false,
+            wzgorza:            true,
             gory:               false,
             urwisko:            false,
             roslinnoscRzadka:   false,
@@ -2669,13 +2678,13 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "0_2": {
             rownina:            false,
-            wzgorza:            false,
+            wzgorza:            true,
             gory:               false,
             urwisko:            false,
             roslinnoscRzadka:   false,
@@ -2689,16 +2698,16 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "0_3": {
             rownina:            false,
-            wzgorza:            false,
+            wzgorza:            true,
             gory:               false,
             urwisko:            false,
-            roslinnoscRzadka:   false,
+            roslinnoscRzadka:   true,
             roslinnoscBujna:    false,
             przepasc:           false,
             jaskinia:           false,
@@ -2709,12 +2718,12 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "0_4": {
-            rownina:            false,
+            rownina:            true,
             wzgorza:            false,
             gory:               false,
             urwisko:            false,
@@ -2729,12 +2738,12 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "0_5": {
-            rownina:            false,
+            rownina:            true,
             wzgorza:            false,
             gory:               false,
             urwisko:            false,
@@ -2749,12 +2758,12 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "0_6": {
-            rownina:            false,
+            rownina:            true,
             wzgorza:            false,
             gory:               false,
             urwisko:            false,
@@ -2769,13 +2778,13 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "1_0": {
             rownina:            false,
-            wzgorza:            false,
+            wzgorza:            true,
             gory:               false,
             urwisko:            false,
             roslinnoscRzadka:   false,
@@ -2789,15 +2798,15 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         /********* Kolumna 2 *****/
         "1_1": {
             rownina:            false,
-            wzgorza:            false,
-            gory:               false,
+            wzgorza:            true,
+            gory:               true,
             urwisko:            false,
             roslinnoscRzadka:   false,
             roslinnoscBujna:    false,
@@ -2810,14 +2819,14 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "1_2": {
             rownina:            false,
-            wzgorza:            false,
-            gory:               false,
+            wzgorza:            true,
+            gory:               true,
             urwisko:            false,
             roslinnoscRzadka:   false,
             roslinnoscBujna:    false,
@@ -2830,13 +2839,13 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "1_3": {
             rownina:            false,
-            wzgorza:            false,
+            wzgorza:            true,
             gory:               false,
             urwisko:            false,
             roslinnoscRzadka:   false,
@@ -2850,13 +2859,13 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "1_4": {
-            rownina:            false,
-            wzgorza:            false,
+            rownina:            true,
+            wzgorza:            true,
             gory:               false,
             urwisko:            false,
             roslinnoscRzadka:   false,
@@ -2870,12 +2879,12 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "1_5": {
-            rownina:            false,
+            rownina:            true,
             wzgorza:            false,
             gory:               false,
             urwisko:            false,
@@ -2890,12 +2899,12 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "1_6": {
-            rownina:            false,
+            rownina:            true,
             wzgorza:            false,
             gory:               false,
             urwisko:            false,
@@ -2910,14 +2919,14 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         /************ Kolumna 3 ****************/
         "2_0": {
             rownina:            false,
-            wzgorza:            false,
+            wzgorza:            true,
             gory:               false,
             urwisko:            false,
             roslinnoscRzadka:   false,
@@ -2931,14 +2940,14 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "2_1": {
             rownina:            false,
-            wzgorza:            false,
-            gory:               false,
+            wzgorza:            true,
+            gory:               true,
             urwisko:            false,
             roslinnoscRzadka:   false,
             roslinnoscBujna:    false,
@@ -2951,12 +2960,12 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "2_2": {
-            rownina:            false,
+            rownina:            true,
             wzgorza:            false,
             gory:               false,
             urwisko:            false,
@@ -2971,15 +2980,15 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      true,
             miastoObcych:       false
 
         },
         "2_3": {
             rownina:            false,
             wzgorza:            false,
-            gory:               false,
-            urwisko:            false,
+            gory:               true,
+            urwisko:            true,
             roslinnoscRzadka:   false,
             roslinnoscBujna:    false,
             przepasc:           false,
@@ -2991,16 +3000,16 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "2_4": {
-            rownina:            false,
+            rownina:            true,
             wzgorza:            false,
             gory:               false,
             urwisko:            false,
-            roslinnoscRzadka:   false,
+            roslinnoscRzadka:   true,
             roslinnoscBujna:    false,
             przepasc:           false,
             jaskinia:           false,
@@ -3011,16 +3020,16 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "2_5": {
-            rownina:            false,
+            rownina:            true,
             wzgorza:            false,
             gory:               false,
             urwisko:            false,
-            roslinnoscRzadka:   false,
+            roslinnoscRzadka:   true,
             roslinnoscBujna:    false,
             przepasc:           false,
             jaskinia:           false,
@@ -3031,16 +3040,16 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "2_6": {
-            rownina:            false,
+            rownina:            true,
             wzgorza:            false,
             gory:               false,
             urwisko:            false,
-            roslinnoscRzadka:   false,
+            roslinnoscRzadka:   true,
             roslinnoscBujna:    false,
             przepasc:           false,
             jaskinia:           false,
@@ -3051,14 +3060,14 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         /************* Kolumna 4 *******************/
         "3_0": {
             rownina:            false,
-            wzgorza:            false,
+            wzgorza:            true,
             gory:               false,
             urwisko:            false,
             roslinnoscRzadka:   false,
@@ -3072,14 +3081,14 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "3_1": {
             rownina:            false,
-            wzgorza:            false,
-            gory:               false,
+            wzgorza:            true,
+            gory:               true,
             urwisko:            false,
             roslinnoscRzadka:   false,
             roslinnoscBujna:    false,
@@ -3092,14 +3101,14 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "3_2": {
             rownina:            false,
-            wzgorza:            false,
-            gory:               false,
+            wzgorza:            true,
+            gory:               true,
             urwisko:            false,
             roslinnoscRzadka:   false,
             roslinnoscBujna:    false,
@@ -3112,13 +3121,13 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "3_3": {
-            rownina:            false,
-            wzgorza:            false,
+            rownina:            true,
+            wzgorza:            true,
             gory:               false,
             urwisko:            false,
             roslinnoscRzadka:   false,
@@ -3132,12 +3141,12 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "3_4": {
-            rownina:            false,
+            rownina:            true,
             wzgorza:            false,
             gory:               false,
             urwisko:            false,
@@ -3152,12 +3161,12 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "3_5": {
-            rownina:            false,
+            rownina:            true,
             wzgorza:            false,
             gory:               false,
             urwisko:            false,
@@ -3172,13 +3181,13 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "3_6": {
-            rownina:            false,
-            wzgorza:            false,
+            rownina:            true,
+            wzgorza:            true,
             gory:               false,
             urwisko:            false,
             roslinnoscRzadka:   false,
@@ -3192,13 +3201,13 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         /*********** Kolumna 5 *********************/
         "4_0": {
-            rownina:            false,
+            rownina:            true,
             wzgorza:            false,
             gory:               false,
             urwisko:            false,
@@ -3213,16 +3222,16 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "4_1": {
             rownina:            false,
-            wzgorza:            false,
+            wzgorza:            true,
             gory:               false,
             urwisko:            false,
-            roslinnoscRzadka:   false,
+            roslinnoscRzadka:   true,
             roslinnoscBujna:    false,
             przepasc:           false,
             jaskinia:           false,
@@ -3233,13 +3242,13 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "4_2": {
             rownina:            false,
-            wzgorza:            false,
+            wzgorza:            true,
             gory:               false,
             urwisko:            false,
             roslinnoscRzadka:   false,
@@ -3253,13 +3262,13 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "4_3": {
             rownina:            false,
-            wzgorza:            false,
+            wzgorza:            true,
             gory:               false,
             urwisko:            false,
             roslinnoscRzadka:   false,
@@ -3273,13 +3282,13 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "4_4": {
-            rownina:            false,
-            wzgorza:            false,
+            rownina:            true,
+            wzgorza:            true,
             gory:               false,
             urwisko:            false,
             roslinnoscRzadka:   false,
@@ -3293,16 +3302,16 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "4_5": {
-            rownina:            false,
+            rownina:            true,
             wzgorza:            false,
             gory:               false,
             urwisko:            false,
-            roslinnoscRzadka:   false,
+            roslinnoscRzadka:   true,
             roslinnoscBujna:    false,
             przepasc:           false,
             jaskinia:           false,
@@ -3313,16 +3322,16 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "4_6": {
-            rownina:            false,
+            rownina:            true,
             wzgorza:            false,
             gory:               false,
             urwisko:            false,
-            roslinnoscRzadka:   false,
+            roslinnoscRzadka:   true,
             roslinnoscBujna:    false,
             przepasc:           false,
             jaskinia:           false,
@@ -3333,17 +3342,17 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         /*********** Kolumna 6 ********************/
         "5_0": {
-            rownina:            false,
+            rownina:            true,
             wzgorza:            false,
             gory:               false,
             urwisko:            false,
-            roslinnoscRzadka:   false,
+            roslinnoscRzadka:   true,
             roslinnoscBujna:    false,
             przepasc:           false,
             jaskinia:           false,
@@ -3354,13 +3363,13 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "5_1": {
-            rownina:            false,
-            wzgorza:            false,
+            rownina:            true,
+            wzgorza:            true,
             gory:               false,
             urwisko:            false,
             roslinnoscRzadka:   false,
@@ -3374,12 +3383,12 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "5_2": {
-            rownina:            false,
+            rownina:            true,
             wzgorza:            false,
             gory:               false,
             urwisko:            false,
@@ -3394,16 +3403,16 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "5_3": {
-            rownina:            false,
+            rownina:            true,
             wzgorza:            false,
             gory:               false,
             urwisko:            false,
-            roslinnoscRzadka:   false,
+            roslinnoscRzadka:   true,
             roslinnoscBujna:    false,
             przepasc:           false,
             jaskinia:           false,
@@ -3414,12 +3423,12 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "5_4": {
-            rownina:            false,
+            rownina:            true,
             wzgorza:            false,
             gory:               false,
             urwisko:            false,
@@ -3434,16 +3443,16 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "5_5": {
-            rownina:            false,
+            rownina:            true,
             wzgorza:            false,
             gory:               false,
             urwisko:            false,
-            roslinnoscRzadka:   false,
+            roslinnoscRzadka:   true,
             roslinnoscBujna:    false,
             przepasc:           false,
             jaskinia:           false,
@@ -3454,16 +3463,16 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "5_6": {
-            rownina:            false,
-            wzgorza:            false,
+            rownina:            true,
+            wzgorza:            true,
             gory:               false,
             urwisko:            false,
-            roslinnoscRzadka:   false,
+            roslinnoscRzadka:   true,
             roslinnoscBujna:    false,
             przepasc:           false,
             jaskinia:           false,
@@ -3474,7 +3483,7 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -3485,12 +3494,12 @@ var planszaM4 = {
 
 /******************* Plansza M5 ***************************************/
 
-var planszaM4 = {
+var planszaM5 = {
 
 /**************** Kolumna 1 **********************/
         "0_0": {
-            rownina:            false,
-            wzgorza:            false,
+            rownina:            true,
+            wzgorza:            true,
             gory:               false,
             urwisko:            false,
             roslinnoscRzadka:   false,
@@ -3504,12 +3513,12 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "0_1": {
-            rownina:            false,
+            rownina:            true,
             wzgorza:            false,
             gory:               false,
             urwisko:            false,
@@ -3524,12 +3533,12 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "0_2": {
-            rownina:            false,
+            rownina:            true,
             wzgorza:            false,
             gory:               false,
             urwisko:            false,
@@ -3544,12 +3553,12 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "0_3": {
-            rownina:            false,
+            rownina:            true,
             wzgorza:            false,
             gory:               false,
             urwisko:            false,
@@ -3564,12 +3573,12 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
-            miastoObcych:       false
+            budowlaObcych:      false,
+            miastoObcych:       true
 
         },
         "0_4": {
-            rownina:            false,
+            rownina:            true,
             wzgorza:            false,
             gory:               false,
             urwisko:            false,
@@ -3581,15 +3590,15 @@ var planszaM4 = {
             jezioro:            false,
             ciecz:              false,
             bagna:              false,
-            lodowiec:           false,
+            lodowiec:           true,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "0_5": {
-            rownina:            false,
+            rownina:            true,
             wzgorza:            false,
             gory:               false,
             urwisko:            false,
@@ -3601,15 +3610,15 @@ var planszaM4 = {
             jezioro:            false,
             ciecz:              false,
             bagna:              false,
-            lodowiec:           false,
+            lodowiec:           true,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "0_6": {
-            rownina:            false,
+            rownina:            true,
             wzgorza:            false,
             gory:               false,
             urwisko:            false,
@@ -3624,12 +3633,12 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
-            miastoObcych:       false
+            budowlaObcych:      false,
+            miastoObcych:       true
 
         },
         "1_0": {
-            rownina:            false,
+            rownina:            true,
             wzgorza:            false,
             gory:               false,
             urwisko:            false,
@@ -3644,14 +3653,14 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         /********* Kolumna 2 *****/
         "1_1": {
-            rownina:            false,
-            wzgorza:            false,
+            rownina:            true,
+            wzgorza:            true,
             gory:               false,
             urwisko:            false,
             roslinnoscRzadka:   false,
@@ -3665,12 +3674,12 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "1_2": {
-            rownina:            false,
+            rownina:            true,
             wzgorza:            false,
             gory:               false,
             urwisko:            false,
@@ -3682,15 +3691,15 @@ var planszaM4 = {
             jezioro:            false,
             ciecz:              false,
             bagna:              false,
-            lodowiec:           false,
+            lodowiec:           true,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "1_3": {
-            rownina:            false,
+            rownina:            true,
             wzgorza:            false,
             gory:               false,
             urwisko:            false,
@@ -3705,12 +3714,12 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
-            miastoObcych:       false
+            budowlaObcych:      false,
+            miastoObcych:       true
 
         },
         "1_4": {
-            rownina:            false,
+            rownina:            true,
             wzgorza:            false,
             gory:               false,
             urwisko:            false,
@@ -3722,15 +3731,15 @@ var planszaM4 = {
             jezioro:            false,
             ciecz:              false,
             bagna:              false,
-            lodowiec:           false,
+            lodowiec:           true,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "1_5": {
-            rownina:            false,
+            rownina:            true,
             wzgorza:            false,
             gory:               false,
             urwisko:            false,
@@ -3745,12 +3754,12 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
-            miastoObcych:       false
+            budowlaObcych:      false,
+            miastoObcych:       true
 
         },
         "1_6": {
-            rownina:            false,
+            rownina:            true,
             wzgorza:            false,
             gory:               false,
             urwisko:            false,
@@ -3762,16 +3771,16 @@ var planszaM4 = {
             jezioro:            false,
             ciecz:              false,
             bagna:              false,
-            lodowiec:           false,
+            lodowiec:           true,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         /************ Kolumna 3 ****************/
         "2_0": {
-            rownina:            false,
+            rownina:            true,
             wzgorza:            false,
             gory:               false,
             urwisko:            false,
@@ -3786,12 +3795,12 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "2_1": {
-            rownina:            false,
+            rownina:            true,
             wzgorza:            false,
             gory:               false,
             urwisko:            false,
@@ -3806,12 +3815,12 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "2_2": {
-            rownina:            false,
+            rownina:            true,
             wzgorza:            false,
             gory:               false,
             urwisko:            false,
@@ -3823,15 +3832,15 @@ var planszaM4 = {
             jezioro:            false,
             ciecz:              false,
             bagna:              false,
-            lodowiec:           false,
+            lodowiec:           true,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "2_3": {
-            rownina:            false,
+            rownina:            true,
             wzgorza:            false,
             gory:               false,
             urwisko:            false,
@@ -3843,15 +3852,15 @@ var planszaM4 = {
             jezioro:            false,
             ciecz:              false,
             bagna:              false,
-            lodowiec:           false,
+            lodowiec:           true,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "2_4": {
-            rownina:            false,
+            rownina:            true,
             wzgorza:            false,
             gory:               false,
             urwisko:            false,
@@ -3866,12 +3875,12 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
-            miastoObcych:       false
+            budowlaObcych:      false,
+            miastoObcych:       true
 
         },
         "2_5": {
-            rownina:            false,
+            rownina:            true,
             wzgorza:            false,
             gory:               false,
             urwisko:            false,
@@ -3886,12 +3895,12 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
-            miastoObcych:       false
+            budowlaObcych:      false,
+            miastoObcych:       true
 
         },
         "2_6": {
-            rownina:            false,
+            rownina:            true,
             wzgorza:            false,
             gory:               false,
             urwisko:            false,
@@ -3903,16 +3912,16 @@ var planszaM4 = {
             jezioro:            false,
             ciecz:              false,
             bagna:              false,
-            lodowiec:           false,
+            lodowiec:           true,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         /************* Kolumna 4 *******************/
         "3_0": {
-            rownina:            false,
+            rownina:            true,
             wzgorza:            false,
             gory:               false,
             urwisko:            false,
@@ -3927,12 +3936,12 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
-            miastoObcych:       false
+            budowlaObcych:      false,
+            miastoObcych:       true
 
         },
         "3_1": {
-            rownina:            false,
+            rownina:            true,
             wzgorza:            false,
             gory:               false,
             urwisko:            false,
@@ -3947,12 +3956,12 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
-            miastoObcych:       false
+            budowlaObcych:      false,
+            miastoObcych:       true
 
         },
         "3_2": {
-            rownina:            false,
+            rownina:            true,
             wzgorza:            false,
             gory:               false,
             urwisko:            false,
@@ -3967,12 +3976,12 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
-            miastoObcych:       false
+            budowlaObcych:      false,
+            miastoObcych:       true
 
         },
         "3_3": {
-            rownina:            false,
+            rownina:            true,
             wzgorza:            false,
             gory:               false,
             urwisko:            false,
@@ -3987,12 +3996,12 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
-            miastoObcych:       false
+            budowlaObcych:      false,
+            miastoObcych:       true
 
         },
         "3_4": {
-            rownina:            false,
+            rownina:            true,
             wzgorza:            false,
             gory:               false,
             urwisko:            false,
@@ -4007,12 +4016,12 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
-            miastoObcych:       false
+            budowlaObcych:      false,
+            miastoObcych:       true
 
         },
         "3_5": {
-            rownina:            false,
+            rownina:            true,
             wzgorza:            false,
             gory:               false,
             urwisko:            false,
@@ -4027,12 +4036,12 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
-            miastoObcych:       false
+            budowlaObcych:      false,
+            miastoObcych:       true
 
         },
         "3_6": {
-            rownina:            false,
+            rownina:            true,
             wzgorza:            false,
             gory:               false,
             urwisko:            false,
@@ -4047,13 +4056,13 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
-            miastoObcych:       false
+            budowlaObcych:      false,
+            miastoObcych:       true
 
         },
         /*********** Kolumna 5 *********************/
         "4_0": {
-            rownina:            false,
+            rownina:            true,
             wzgorza:            false,
             gory:               false,
             urwisko:            false,
@@ -4068,12 +4077,12 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "4_1": {
-            rownina:            false,
+            rownina:            true,
             wzgorza:            false,
             gory:               false,
             urwisko:            false,
@@ -4088,13 +4097,13 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "4_2": {
-            rownina:            false,
-            wzgorza:            false,
+            rownina:            true,
+            wzgorza:            true,
             gory:               false,
             urwisko:            false,
             roslinnoscRzadka:   false,
@@ -4108,12 +4117,12 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "4_3": {
-            rownina:            false,
+            rownina:            true,
             wzgorza:            false,
             gory:               false,
             urwisko:            false,
@@ -4125,15 +4134,15 @@ var planszaM4 = {
             jezioro:            false,
             ciecz:              false,
             bagna:              false,
-            lodowiec:           false,
+            lodowiec:           true,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "4_4": {
-            rownina:            false,
+            rownina:            true,
             wzgorza:            false,
             gory:               false,
             urwisko:            false,
@@ -4148,12 +4157,12 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
-            miastoObcych:       false
+            budowlaObcych:      false,
+            miastoObcych:       true
 
         },
         "4_5": {
-            rownina:            false,
+            rownina:            true,
             wzgorza:            false,
             gory:               false,
             urwisko:            false,
@@ -4168,12 +4177,12 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
-            miastoObcych:       false
+            budowlaObcych:      false,
+            miastoObcych:       true
 
         },
         "4_6": {
-            rownina:            false,
+            rownina:            true,
             wzgorza:            false,
             gory:               false,
             urwisko:            false,
@@ -4185,17 +4194,17 @@ var planszaM4 = {
             jezioro:            false,
             ciecz:              false,
             bagna:              false,
-            lodowiec:           false,
+            lodowiec:           true,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         /*********** Kolumna 6 ********************/
         "5_0": {
             rownina:            false,
-            wzgorza:            false,
+            wzgorza:            true,
             gory:               false,
             urwisko:            false,
             roslinnoscRzadka:   false,
@@ -4209,13 +4218,13 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "5_1": {
             rownina:            false,
-            wzgorza:            false,
+            wzgorza:            true,
             gory:               false,
             urwisko:            false,
             roslinnoscRzadka:   false,
@@ -4229,12 +4238,12 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "5_2": {
-            rownina:            false,
+            rownina:            true,
             wzgorza:            false,
             gory:               false,
             urwisko:            false,
@@ -4249,12 +4258,12 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "5_3": {
-            rownina:            false,
+            rownina:            true,
             wzgorza:            false,
             gory:               false,
             urwisko:            false,
@@ -4269,12 +4278,12 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
-            miastoObcych:       false
+            budowlaObcych:      false,
+            miastoObcych:       true
 
         },
         "5_4": {
-            rownina:            false,
+            rownina:            true,
             wzgorza:            false,
             gory:               false,
             urwisko:            false,
@@ -4286,15 +4295,15 @@ var planszaM4 = {
             jezioro:            false,
             ciecz:              false,
             bagna:              false,
-            lodowiec:           false,
+            lodowiec:           true,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "5_5": {
-            rownina:            false,
+            rownina:            true,
             wzgorza:            false,
             gory:               false,
             urwisko:            false,
@@ -4309,12 +4318,12 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
-            miastoObcych:       false
+            budowlaObcych:      false,
+            miastoObcych:       true
 
         },
         "5_6": {
-            rownina:            false,
+            rownina:            true,
             wzgorza:            false,
             gory:               false,
             urwisko:            false,
@@ -4326,10 +4335,10 @@ var planszaM4 = {
             jezioro:            false,
             ciecz:              false,
             bagna:              false,
-            lodowiec:           false,
+            lodowiec:           true,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -4339,11 +4348,11 @@ var planszaM4 = {
 
 /******************* Plansza M6 ***************************************/
 
-var planszaM4 = {
+var planszaM6 = {
 
 /**************** Kolumna 1 **********************/
         "0_0": {
-            rownina:            false,
+            rownina:            true,
             wzgorza:            false,
             gory:               false,
             urwisko:            false,
@@ -4358,12 +4367,12 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "0_1": {
-            rownina:            false,
+            rownina:            true,
             wzgorza:            false,
             gory:               false,
             urwisko:            false,
@@ -4378,7 +4387,7 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -4397,14 +4406,14 @@ var planszaM4 = {
             bagna:              false,
             lodowiec:           false,
             plynnaLawa:         false,
-            zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            zastyglaLawa:       true,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "0_3": {
             rownina:            false,
-            wzgorza:            false,
+            wzgorza:            true,
             gory:               false,
             urwisko:            false,
             roslinnoscRzadka:   false,
@@ -4418,18 +4427,18 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "0_4": {
-            rownina:            false,
+            rownina:            true,
             wzgorza:            false,
             gory:               false,
             urwisko:            false,
             roslinnoscRzadka:   false,
             roslinnoscBujna:    false,
-            przepasc:           false,
+            przepasc:           true,
             jaskinia:           false,
             rzeka:              false,
             jezioro:            false,
@@ -4438,12 +4447,12 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "0_5": {
-            rownina:            false,
+            rownina:            true,
             wzgorza:            false,
             gory:               false,
             urwisko:            false,
@@ -4458,12 +4467,12 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "0_6": {
-            rownina:            false,
+            rownina:            true,
             wzgorza:            false,
             gory:               false,
             urwisko:            false,
@@ -4477,35 +4486,15 @@ var planszaM4 = {
             bagna:              false,
             lodowiec:           false,
             plynnaLawa:         false,
-            zastyglaLawa:       false,
-            budowlaObcuch:      false,
-            miastoObcych:       false
-
-        },
-        "1_0": {
-            rownina:            false,
-            wzgorza:            false,
-            gory:               false,
-            urwisko:            false,
-            roslinnoscRzadka:   false,
-            roslinnoscBujna:    false,
-            przepasc:           false,
-            jaskinia:           false,
-            rzeka:              false,
-            jezioro:            false,
-            ciecz:              false,
-            bagna:              false,
-            lodowiec:           false,
-            plynnaLawa:         false,
-            zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            zastyglaLawa:       true,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         /********* Kolumna 2 *****/
-        "1_1": {
+        "1_0": {
             rownina:            false,
-            wzgorza:            false,
+            wzgorza:            true,
             gory:               false,
             urwisko:            false,
             roslinnoscRzadka:   false,
@@ -4519,13 +4508,34 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
+            miastoObcych:       false
+
+        },
+
+        "1_1": {
+            rownina:            false,
+            wzgorza:            true,
+            gory:               false,
+            urwisko:            false,
+            roslinnoscRzadka:   false,
+            roslinnoscBujna:    false,
+            przepasc:           false,
+            jaskinia:           false,
+            rzeka:              false,
+            jezioro:            false,
+            ciecz:              false,
+            bagna:              false,
+            lodowiec:           false,
+            plynnaLawa:         true,
+            zastyglaLawa:       true,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "1_2": {
             rownina:            false,
-            wzgorza:            false,
+            wzgorza:            true,
             gory:               false,
             urwisko:            false,
             roslinnoscRzadka:   false,
@@ -4537,15 +4547,15 @@ var planszaM4 = {
             ciecz:              false,
             bagna:              false,
             lodowiec:           false,
-            plynnaLawa:         false,
-            zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            plynnaLawa:         true,
+            zastyglaLawa:       true,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "1_3": {
             rownina:            false,
-            wzgorza:            false,
+            wzgorza:            true,
             gory:               false,
             urwisko:            false,
             roslinnoscRzadka:   false,
@@ -4558,19 +4568,19 @@ var planszaM4 = {
             bagna:              false,
             lodowiec:           false,
             plynnaLawa:         false,
-            zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            zastyglaLawa:       true,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "1_4": {
-            rownina:            false,
-            wzgorza:            false,
+            rownina:            true,
+            wzgorza:            true,
             gory:               false,
             urwisko:            false,
             roslinnoscRzadka:   false,
             roslinnoscBujna:    false,
-            przepasc:           false,
+            przepasc:           true,
             jaskinia:           false,
             rzeka:              false,
             jezioro:            false,
@@ -4579,18 +4589,18 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "1_5": {
-            rownina:            false,
+            rownina:            true,
             wzgorza:            false,
             gory:               false,
             urwisko:            false,
             roslinnoscRzadka:   false,
             roslinnoscBujna:    false,
-            przepasc:           false,
+            przepasc:           true,
             jaskinia:           false,
             rzeka:              false,
             jezioro:            false,
@@ -4598,13 +4608,13 @@ var planszaM4 = {
             bagna:              false,
             lodowiec:           false,
             plynnaLawa:         false,
-            zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            zastyglaLawa:       true,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "1_6": {
-            rownina:            false,
+            rownina:            true,
             wzgorza:            false,
             gory:               false,
             urwisko:            false,
@@ -4619,14 +4629,14 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         /************ Kolumna 3 ****************/
         "2_0": {
             rownina:            false,
-            wzgorza:            false,
+            wzgorza:            true,
             gory:               false,
             urwisko:            false,
             roslinnoscRzadka:   false,
@@ -4640,13 +4650,13 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "2_1": {
             rownina:            false,
-            wzgorza:            false,
+            wzgorza:            true,
             gory:               false,
             urwisko:            false,
             roslinnoscRzadka:   false,
@@ -4658,9 +4668,9 @@ var planszaM4 = {
             ciecz:              false,
             bagna:              false,
             lodowiec:           false,
-            plynnaLawa:         false,
-            zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            plynnaLawa:         true,
+            zastyglaLawa:       true,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -4678,9 +4688,9 @@ var planszaM4 = {
             ciecz:              false,
             bagna:              false,
             lodowiec:           false,
-            plynnaLawa:         false,
+            plynnaLawa:         true,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -4698,35 +4708,35 @@ var planszaM4 = {
             ciecz:              false,
             bagna:              false,
             lodowiec:           false,
-            plynnaLawa:         false,
-            zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            plynnaLawa:         true,
+            zastyglaLawa:       true,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "2_4": {
             rownina:            false,
-            wzgorza:            false,
+            wzgorza:            true,
             gory:               false,
             urwisko:            false,
             roslinnoscRzadka:   false,
             roslinnoscBujna:    false,
             przepasc:           false,
-            jaskinia:           false,
+            jaskinia:           true,
             rzeka:              false,
             jezioro:            false,
             ciecz:              false,
             bagna:              false,
             lodowiec:           false,
             plynnaLawa:         false,
-            zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            zastyglaLawa:       true,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "2_5": {
             rownina:            false,
-            wzgorza:            false,
+            wzgorza:            true,
             gory:               false,
             urwisko:            false,
             roslinnoscRzadka:   false,
@@ -4739,19 +4749,19 @@ var planszaM4 = {
             bagna:              false,
             lodowiec:           false,
             plynnaLawa:         false,
-            zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            zastyglaLawa:       true,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "2_6": {
-            rownina:            false,
+            rownina:            true,
             wzgorza:            false,
             gory:               false,
             urwisko:            false,
             roslinnoscRzadka:   false,
             roslinnoscBujna:    false,
-            przepasc:           false,
+            przepasc:           true,
             jaskinia:           false,
             rzeka:              false,
             jezioro:            false,
@@ -4760,14 +4770,14 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         /************* Kolumna 4 *******************/
         "3_0": {
             rownina:            false,
-            wzgorza:            false,
+            wzgorza:            true,
             gory:               false,
             urwisko:            false,
             roslinnoscRzadka:   false,
@@ -4780,8 +4790,8 @@ var planszaM4 = {
             bagna:              false,
             lodowiec:           false,
             plynnaLawa:         false,
-            zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            zastyglaLawa:       true,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -4799,9 +4809,9 @@ var planszaM4 = {
             ciecz:              false,
             bagna:              false,
             lodowiec:           false,
-            plynnaLawa:         false,
-            zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            plynnaLawa:         true,
+            zastyglaLawa:       true,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -4819,9 +4829,9 @@ var planszaM4 = {
             ciecz:              false,
             bagna:              false,
             lodowiec:           false,
-            plynnaLawa:         false,
-            zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            plynnaLawa:         true,
+            zastyglaLawa:       true,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -4840,8 +4850,8 @@ var planszaM4 = {
             bagna:              false,
             lodowiec:           false,
             plynnaLawa:         false,
-            zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            zastyglaLawa:       true,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -4860,14 +4870,14 @@ var planszaM4 = {
             bagna:              false,
             lodowiec:           false,
             plynnaLawa:         false,
-            zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            zastyglaLawa:       true,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "3_5": {
             rownina:            false,
-            wzgorza:            false,
+            wzgorza:            true,
             gory:               false,
             urwisko:            false,
             roslinnoscRzadka:   false,
@@ -4880,13 +4890,13 @@ var planszaM4 = {
             bagna:              false,
             lodowiec:           false,
             plynnaLawa:         false,
-            zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            zastyglaLawa:       true,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "3_6": {
-            rownina:            false,
+            rownina:            true,
             wzgorza:            false,
             gory:               false,
             urwisko:            false,
@@ -4901,7 +4911,7 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -4921,8 +4931,8 @@ var planszaM4 = {
             bagna:              false,
             lodowiec:           false,
             plynnaLawa:         false,
-            zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            zastyglaLawa:       true,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -4940,15 +4950,15 @@ var planszaM4 = {
             ciecz:              false,
             bagna:              false,
             lodowiec:           false,
-            plynnaLawa:         false,
-            zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            plynnaLawa:         true,
+            zastyglaLawa:       true,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "4_2": {
             rownina:            false,
-            wzgorza:            false,
+            wzgorza:            true,
             gory:               false,
             urwisko:            false,
             roslinnoscRzadka:   false,
@@ -4962,7 +4972,7 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -4980,9 +4990,9 @@ var planszaM4 = {
             ciecz:              false,
             bagna:              false,
             lodowiec:           false,
-            plynnaLawa:         false,
-            zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            plynnaLawa:         true,
+            zastyglaLawa:       true,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -5001,8 +5011,8 @@ var planszaM4 = {
             bagna:              false,
             lodowiec:           false,
             plynnaLawa:         false,
-            zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            zastyglaLawa:       true,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -5020,15 +5030,15 @@ var planszaM4 = {
             ciecz:              false,
             bagna:              false,
             lodowiec:           false,
-            plynnaLawa:         false,
-            zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            plynnaLawa:         true,
+            zastyglaLawa:       true,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "4_6": {
-            rownina:            false,
-            wzgorza:            false,
+            rownina:            true,
+            wzgorza:            true,
             gory:               false,
             urwisko:            false,
             roslinnoscRzadka:   false,
@@ -5042,7 +5052,7 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -5050,7 +5060,7 @@ var planszaM4 = {
         "5_0": {
             rownina:            false,
             wzgorza:            false,
-            gory:               false,
+            gory:               true,
             urwisko:            false,
             roslinnoscRzadka:   false,
             roslinnoscBujna:    false,
@@ -5061,16 +5071,16 @@ var planszaM4 = {
             ciecz:              false,
             bagna:              false,
             lodowiec:           false,
-            plynnaLawa:         false,
-            zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            plynnaLawa:         true,
+            zastyglaLawa:       true,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "5_1": {
             rownina:            false,
             wzgorza:            false,
-            gory:               false,
+            gory:               true,
             urwisko:            false,
             roslinnoscRzadka:   false,
             roslinnoscBujna:    false,
@@ -5083,14 +5093,14 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "5_2": {
             rownina:            false,
             wzgorza:            false,
-            gory:               false,
+            gory:               true,
             urwisko:            false,
             roslinnoscRzadka:   false,
             roslinnoscBujna:    false,
@@ -5103,7 +5113,7 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -5122,8 +5132,8 @@ var planszaM4 = {
             bagna:              false,
             lodowiec:           false,
             plynnaLawa:         false,
-            zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            zastyglaLawa:       true,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -5142,14 +5152,14 @@ var planszaM4 = {
             bagna:              false,
             lodowiec:           false,
             plynnaLawa:         false,
-            zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            zastyglaLawa:       true,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "5_5": {
             rownina:            false,
-            wzgorza:            false,
+            wzgorza:            true,
             gory:               false,
             urwisko:            false,
             roslinnoscRzadka:   false,
@@ -5163,12 +5173,12 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "5_6": {
-            rownina:            false,
+            rownina:            true,
             wzgorza:            false,
             gory:               false,
             urwisko:            false,
@@ -5183,7 +5193,7 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -5193,18 +5203,18 @@ var planszaM4 = {
 
 /******************* Plansza M7 ***************************************/
 
-var planszaM4 = {
+var planszaM7 = {
 
 /**************** Kolumna 1 **********************/
         "0_0": {
-            rownina:            false,
+            rownina:            true,
             wzgorza:            false,
             gory:               false,
             urwisko:            false,
             roslinnoscRzadka:   false,
             roslinnoscBujna:    false,
             przepasc:           false,
-            jaskinia:           false,
+            jaskinia:           true,
             rzeka:              false,
             jezioro:            false,
             ciecz:              false,
@@ -5212,19 +5222,19 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "0_1": {
-            rownina:            false,
+            rownina:            true,
             wzgorza:            false,
             gory:               false,
             urwisko:            false,
             roslinnoscRzadka:   false,
-            roslinnoscBujna:    false,
+            roslinnoscBujna:    true,
             przepasc:           false,
-            jaskinia:           false,
+            jaskinia:           true,
             rzeka:              false,
             jezioro:            false,
             ciecz:              false,
@@ -5232,17 +5242,17 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "0_2": {
-            rownina:            false,
+            rownina:            true,
             wzgorza:            false,
             gory:               false,
             urwisko:            false,
             roslinnoscRzadka:   false,
-            roslinnoscBujna:    false,
+            roslinnoscBujna:    true,
             przepasc:           false,
             jaskinia:           false,
             rzeka:              false,
@@ -5252,17 +5262,17 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "0_3": {
-            rownina:            false,
+            rownina:            true,
             wzgorza:            false,
             gory:               false,
             urwisko:            false,
             roslinnoscRzadka:   false,
-            roslinnoscBujna:    false,
+            roslinnoscBujna:    true,
             przepasc:           false,
             jaskinia:           false,
             rzeka:              false,
@@ -5272,17 +5282,17 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "0_4": {
-            rownina:            false,
+            rownina:            true,
             wzgorza:            false,
             gory:               false,
             urwisko:            false,
             roslinnoscRzadka:   false,
-            roslinnoscBujna:    false,
+            roslinnoscBujna:    true,
             przepasc:           false,
             jaskinia:           false,
             rzeka:              false,
@@ -5292,37 +5302,37 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "0_5": {
             rownina:            false,
             wzgorza:            false,
-            gory:               false,
-            urwisko:            false,
+            gory:               true,
+            urwisko:            true,
             roslinnoscRzadka:   false,
             roslinnoscBujna:    false,
             przepasc:           false,
             jaskinia:           false,
-            rzeka:              false,
+            rzeka:              true,
             jezioro:            false,
             ciecz:              false,
             bagna:              false,
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "0_6": {
-            rownina:            false,
+            rownina:            true,
             wzgorza:            false,
             gory:               false,
             urwisko:            false,
             roslinnoscRzadka:   false,
-            roslinnoscBujna:    false,
+            roslinnoscBujna:    true,
             przepasc:           false,
             jaskinia:           false,
             rzeka:              false,
@@ -5332,17 +5342,17 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "1_0": {
-            rownina:            false,
+            rownina:            true,
             wzgorza:            false,
             gory:               false,
             urwisko:            false,
             roslinnoscRzadka:   false,
-            roslinnoscBujna:    false,
+            roslinnoscBujna:    true,
             przepasc:           false,
             jaskinia:           false,
             rzeka:              false,
@@ -5352,20 +5362,20 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         /********* Kolumna 2 *****/
         "1_1": {
-            rownina:            false,
+            rownina:            true,
             wzgorza:            false,
             gory:               false,
             urwisko:            false,
             roslinnoscRzadka:   false,
             roslinnoscBujna:    false,
             przepasc:           false,
-            jaskinia:           false,
+            jaskinia:           true,
             rzeka:              false,
             jezioro:            false,
             ciecz:              false,
@@ -5373,19 +5383,19 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "1_2": {
-            rownina:            false,
+            rownina:            true,
             wzgorza:            false,
             gory:               false,
             urwisko:            false,
             roslinnoscRzadka:   false,
             roslinnoscBujna:    false,
             przepasc:           false,
-            jaskinia:           false,
+            jaskinia:           true,
             rzeka:              false,
             jezioro:            false,
             ciecz:              false,
@@ -5393,19 +5403,19 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "1_3": {
-            rownina:            false,
+            rownina:            true,
             wzgorza:            false,
             gory:               false,
             urwisko:            false,
             roslinnoscRzadka:   false,
             roslinnoscBujna:    false,
             przepasc:           false,
-            jaskinia:           false,
+            jaskinia:           true,
             rzeka:              false,
             jezioro:            false,
             ciecz:              false,
@@ -5413,37 +5423,37 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "1_4": {
             rownina:            false,
             wzgorza:            false,
-            gory:               false,
-            urwisko:            false,
+            gory:               true,
+            urwisko:            true,
             roslinnoscRzadka:   false,
             roslinnoscBujna:    false,
             przepasc:           false,
             jaskinia:           false,
-            rzeka:              false,
+            rzeka:              true,
             jezioro:            false,
             ciecz:              false,
             bagna:              false,
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "1_5": {
-            rownina:            false,
+            rownina:            true,
             wzgorza:            false,
             gory:               false,
             urwisko:            false,
             roslinnoscRzadka:   false,
-            roslinnoscBujna:    false,
+            roslinnoscBujna:    true,
             przepasc:           false,
             jaskinia:           false,
             rzeka:              false,
@@ -5453,17 +5463,17 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "1_6": {
-            rownina:            false,
+            rownina:            true,
             wzgorza:            false,
             gory:               false,
             urwisko:            false,
             roslinnoscRzadka:   false,
-            roslinnoscBujna:    false,
+            roslinnoscBujna:    true,
             przepasc:           false,
             jaskinia:           false,
             rzeka:              false,
@@ -5473,18 +5483,18 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         /************ Kolumna 3 ****************/
         "2_0": {
-            rownina:            false,
+            rownina:            true,
             wzgorza:            false,
             gory:               false,
             urwisko:            false,
             roslinnoscRzadka:   false,
-            roslinnoscBujna:    false,
+            roslinnoscBujna:    true,
             przepasc:           false,
             jaskinia:           false,
             rzeka:              false,
@@ -5494,19 +5504,19 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "2_1": {
-            rownina:            false,
+            rownina:            true,
             wzgorza:            false,
             gory:               false,
             urwisko:            false,
             roslinnoscRzadka:   false,
             roslinnoscBujna:    false,
             przepasc:           false,
-            jaskinia:           false,
+            jaskinia:           true,
             rzeka:              false,
             jezioro:            false,
             ciecz:              false,
@@ -5514,17 +5524,17 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "2_2": {
-            rownina:            false,
+            rownina:            true,
             wzgorza:            false,
             gory:               false,
             urwisko:            false,
             roslinnoscRzadka:   false,
-            roslinnoscBujna:    false,
+            roslinnoscBujna:    true,
             przepasc:           false,
             jaskinia:           false,
             rzeka:              false,
@@ -5534,19 +5544,19 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "2_3": {
-            rownina:            false,
+            rownina:            true,
             wzgorza:            false,
             gory:               false,
             urwisko:            false,
             roslinnoscRzadka:   false,
             roslinnoscBujna:    false,
             przepasc:           false,
-            jaskinia:           false,
+            jaskinia:           true,
             rzeka:              false,
             jezioro:            false,
             ciecz:              false,
@@ -5554,12 +5564,12 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "2_4": {
-            rownina:            false,
+            rownina:            true,
             wzgorza:            false,
             gory:               false,
             urwisko:            false,
@@ -5574,32 +5584,32 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "2_5": {
             rownina:            false,
             wzgorza:            false,
-            gory:               false,
-            urwisko:            false,
+            gory:               true,
+            urwisko:            true,
             roslinnoscRzadka:   false,
             roslinnoscBujna:    false,
             przepasc:           false,
             jaskinia:           false,
-            rzeka:              false,
+            rzeka:              true,
             jezioro:            false,
             ciecz:              false,
             bagna:              false,
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "2_6": {
-            rownina:            false,
+            rownina:            true,
             wzgorza:            false,
             gory:               false,
             urwisko:            false,
@@ -5614,20 +5624,20 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         /************* Kolumna 4 *******************/
         "3_0": {
-            rownina:            false,
+            rownina:            true,
             wzgorza:            false,
             gory:               false,
             urwisko:            false,
             roslinnoscRzadka:   false,
             roslinnoscBujna:    false,
             przepasc:           false,
-            jaskinia:           false,
+            jaskinia:           true,
             rzeka:              false,
             jezioro:            false,
             ciecz:              false,
@@ -5635,19 +5645,19 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "3_1": {
-            rownina:            false,
+            rownina:            true,
             wzgorza:            false,
             gory:               false,
             urwisko:            false,
             roslinnoscRzadka:   false,
             roslinnoscBujna:    false,
             przepasc:           false,
-            jaskinia:           false,
+            jaskinia:           true,
             rzeka:              false,
             jezioro:            false,
             ciecz:              false,
@@ -5655,19 +5665,19 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "3_2": {
-            rownina:            false,
+            rownina:            true,
             wzgorza:            false,
             gory:               false,
             urwisko:            false,
             roslinnoscRzadka:   false,
             roslinnoscBujna:    false,
             przepasc:           false,
-            jaskinia:           false,
+            jaskinia:           true,
             rzeka:              false,
             jezioro:            false,
             ciecz:              false,
@@ -5675,19 +5685,19 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "3_3": {
-            rownina:            false,
+            rownina:            true,
             wzgorza:            false,
             gory:               false,
             urwisko:            false,
             roslinnoscRzadka:   false,
             roslinnoscBujna:    false,
             przepasc:           false,
-            jaskinia:           false,
+            jaskinia:           true,
             rzeka:              false,
             jezioro:            false,
             ciecz:              false,
@@ -5695,37 +5705,37 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "3_4": {
             rownina:            false,
             wzgorza:            false,
-            gory:               false,
-            urwisko:            false,
+            gory:               true,
+            urwisko:            true,
             roslinnoscRzadka:   false,
             roslinnoscBujna:    false,
             przepasc:           false,
             jaskinia:           false,
-            rzeka:              false,
+            rzeka:              true,
             jezioro:            false,
             ciecz:              false,
             bagna:              false,
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "3_5": {
-            rownina:            false,
+            rownina:            true,
             wzgorza:            false,
             gory:               false,
             urwisko:            false,
             roslinnoscRzadka:   false,
-            roslinnoscBujna:    false,
+            roslinnoscBujna:    true,
             przepasc:           false,
             jaskinia:           false,
             rzeka:              false,
@@ -5735,17 +5745,17 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "3_6": {
-            rownina:            false,
+            rownina:            true,
             wzgorza:            false,
             gory:               false,
             urwisko:            false,
             roslinnoscRzadka:   false,
-            roslinnoscBujna:    false,
+            roslinnoscBujna:    true,
             przepasc:           false,
             jaskinia:           false,
             rzeka:              false,
@@ -5755,18 +5765,18 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         /*********** Kolumna 5 *********************/
         "4_0": {
-            rownina:            false,
+            rownina:            true,
             wzgorza:            false,
             gory:               false,
             urwisko:            false,
             roslinnoscRzadka:   false,
-            roslinnoscBujna:    false,
+            roslinnoscBujna:    true,
             przepasc:           false,
             jaskinia:           false,
             rzeka:              false,
@@ -5776,19 +5786,19 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "4_1": {
-            rownina:            false,
+            rownina:            true,
             wzgorza:            false,
             gory:               false,
             urwisko:            false,
             roslinnoscRzadka:   false,
-            roslinnoscBujna:    false,
+            roslinnoscBujna:    true,
             przepasc:           false,
-            jaskinia:           false,
+            jaskinia:           true,
             rzeka:              false,
             jezioro:            false,
             ciecz:              false,
@@ -5796,12 +5806,12 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "4_2": {
-            rownina:            false,
+            rownina:            true,
             wzgorza:            false,
             gory:               false,
             urwisko:            false,
@@ -5816,19 +5826,19 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "4_3": {
-            rownina:            false,
+            rownina:            true,
             wzgorza:            false,
             gory:               false,
             urwisko:            false,
             roslinnoscRzadka:   false,
             roslinnoscBujna:    false,
             przepasc:           false,
-            jaskinia:           false,
+            jaskinia:           true,
             rzeka:              false,
             jezioro:            false,
             ciecz:              false,
@@ -5836,32 +5846,32 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "4_4": {
             rownina:            false,
             wzgorza:            false,
-            gory:               false,
-            urwisko:            false,
+            gory:               true,
+            urwisko:            true,
             roslinnoscRzadka:   false,
             roslinnoscBujna:    false,
             przepasc:           false,
             jaskinia:           false,
-            rzeka:              false,
+            rzeka:              true,
             jezioro:            false,
             ciecz:              false,
             bagna:              false,
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "4_5": {
-            rownina:            false,
+            rownina:            true,
             wzgorza:            false,
             gory:               false,
             urwisko:            false,
@@ -5876,17 +5886,17 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "4_6": {
-            rownina:            false,
+            rownina:            true,
             wzgorza:            false,
             gory:               false,
             urwisko:            false,
             roslinnoscRzadka:   false,
-            roslinnoscBujna:    false,
+            roslinnoscBujna:    true,
             przepasc:           false,
             jaskinia:           false,
             rzeka:              false,
@@ -5896,18 +5906,18 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         /*********** Kolumna 6 ********************/
         "5_0": {
-            rownina:            false,
+            rownina:            true,
             wzgorza:            false,
             gory:               false,
             urwisko:            false,
             roslinnoscRzadka:   false,
-            roslinnoscBujna:    false,
+            roslinnoscBujna:    true,
             przepasc:           false,
             jaskinia:           false,
             rzeka:              false,
@@ -5917,19 +5927,19 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "5_1": {
-            rownina:            false,
+            rownina:            true,
             wzgorza:            false,
             gory:               false,
             urwisko:            false,
             roslinnoscRzadka:   false,
             roslinnoscBujna:    false,
             przepasc:           false,
-            jaskinia:           false,
+            jaskinia:           true,
             rzeka:              false,
             jezioro:            false,
             ciecz:              false,
@@ -5937,19 +5947,19 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "5_2": {
-            rownina:            false,
+            rownina:            true,
             wzgorza:            false,
             gory:               false,
             urwisko:            false,
             roslinnoscRzadka:   false,
             roslinnoscBujna:    false,
             przepasc:           false,
-            jaskinia:           false,
+            jaskinia:           true,
             rzeka:              false,
             jezioro:            false,
             ciecz:              false,
@@ -5957,17 +5967,17 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "5_3": {
-            rownina:            false,
+            rownina:            true,
             wzgorza:            false,
             gory:               false,
             urwisko:            false,
             roslinnoscRzadka:   false,
-            roslinnoscBujna:    false,
+            roslinnoscBujna:    true,
             przepasc:           false,
             jaskinia:           false,
             rzeka:              false,
@@ -5977,32 +5987,32 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "5_4": {
             rownina:            false,
             wzgorza:            false,
-            gory:               false,
-            urwisko:            false,
+            gory:               true,
+            urwisko:            true,
             roslinnoscRzadka:   false,
             roslinnoscBujna:    false,
             przepasc:           false,
             jaskinia:           false,
-            rzeka:              false,
+            rzeka:              true,
             jezioro:            false,
             ciecz:              false,
             bagna:              false,
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "5_5": {
-            rownina:            false,
+            rownina:            true,
             wzgorza:            false,
             gory:               false,
             urwisko:            false,
@@ -6017,17 +6027,17 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "5_6": {
-            rownina:            false,
+            rownina:            true,
             wzgorza:            false,
             gory:               false,
             urwisko:            false,
             roslinnoscRzadka:   false,
-            roslinnoscBujna:    false,
+            roslinnoscBujna:    true,
             przepasc:           false,
             jaskinia:           false,
             rzeka:              false,
@@ -6037,7 +6047,7 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -6047,7 +6057,7 @@ var planszaM4 = {
 
 /******************* Plansza M8 ***************************************/
 
-var planszaM4 = {
+var planszaM8 = {
 
 /**************** Kolumna 1 **********************/
         "0_0": {
@@ -6061,12 +6071,12 @@ var planszaM4 = {
             jaskinia:           false,
             rzeka:              false,
             jezioro:            false,
-            ciecz:              false,
+            ciecz:              true,
             bagna:              false,
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -6082,11 +6092,11 @@ var planszaM4 = {
             rzeka:              false,
             jezioro:            false,
             ciecz:              false,
-            bagna:              false,
+            bagna:              true,
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -6102,41 +6112,41 @@ var planszaM4 = {
             rzeka:              false,
             jezioro:            false,
             ciecz:              false,
-            bagna:              false,
+            bagna:              true,
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "0_3": {
-            rownina:            false,
+            rownina:            true,
             wzgorza:            false,
             gory:               false,
             urwisko:            false,
             roslinnoscRzadka:   false,
-            roslinnoscBujna:    false,
+            roslinnoscBujna:    true,
             przepasc:           false,
             jaskinia:           false,
             rzeka:              false,
-            jezioro:            false,
+            jezioro:            true,
             ciecz:              false,
             bagna:              false,
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "0_4": {
-            rownina:            false,
+            rownina:            true,
             wzgorza:            false,
             gory:               false,
             urwisko:            false,
             roslinnoscRzadka:   false,
-            roslinnoscBujna:    false,
+            roslinnoscBujna:    true,
             przepasc:           false,
             jaskinia:           false,
             rzeka:              false,
@@ -6146,12 +6156,12 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "0_5": {
-            rownina:            false,
+            rownina:            true,
             wzgorza:            false,
             gory:               false,
             urwisko:            false,
@@ -6159,19 +6169,19 @@ var planszaM4 = {
             roslinnoscBujna:    false,
             przepasc:           false,
             jaskinia:           false,
-            rzeka:              false,
+            rzeka:              true,
             jezioro:            false,
             ciecz:              false,
             bagna:              false,
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "0_6": {
-            rownina:            false,
+            rownina:            true,
             wzgorza:            false,
             gory:               false,
             urwisko:            false,
@@ -6186,7 +6196,7 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -6201,12 +6211,12 @@ var planszaM4 = {
             jaskinia:           false,
             rzeka:              false,
             jezioro:            false,
-            ciecz:              false,
+            ciecz:              true,
             bagna:              false,
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -6223,11 +6233,11 @@ var planszaM4 = {
             rzeka:              false,
             jezioro:            false,
             ciecz:              false,
-            bagna:              false,
+            bagna:              true,
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -6243,11 +6253,11 @@ var planszaM4 = {
             rzeka:              false,
             jezioro:            false,
             ciecz:              false,
-            bagna:              false,
+            bagna:              true,
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -6260,74 +6270,74 @@ var planszaM4 = {
             roslinnoscBujna:    false,
             przepasc:           false,
             jaskinia:           false,
-            rzeka:              false,
+            rzeka:              true,
             jezioro:            false,
             ciecz:              false,
-            bagna:              false,
+            bagna:              true,
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "1_4": {
-            rownina:            false,
+            rownina:            true,
             wzgorza:            false,
             gory:               false,
             urwisko:            false,
             roslinnoscRzadka:   false,
-            roslinnoscBujna:    false,
+            roslinnoscBujna:    true,
             przepasc:           false,
             jaskinia:           false,
-            rzeka:              false,
+            rzeka:              true,
             jezioro:            false,
             ciecz:              false,
             bagna:              false,
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "1_5": {
-            rownina:            false,
-            wzgorza:            false,
+            rownina:            true,
+            wzgorza:            true,
             gory:               false,
             urwisko:            false,
             roslinnoscRzadka:   false,
             roslinnoscBujna:    false,
             przepasc:           false,
             jaskinia:           false,
-            rzeka:              false,
+            rzeka:              true,
             jezioro:            false,
             ciecz:              false,
             bagna:              false,
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "1_6": {
-            rownina:            false,
+            rownina:            true,
             wzgorza:            false,
             gory:               false,
             urwisko:            false,
             roslinnoscRzadka:   false,
-            roslinnoscBujna:    false,
+            roslinnoscBujna:    true,
             przepasc:           false,
             jaskinia:           false,
-            rzeka:              false,
+            rzeka:              true,
             jezioro:            false,
             ciecz:              false,
             bagna:              false,
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -6343,12 +6353,12 @@ var planszaM4 = {
             jaskinia:           false,
             rzeka:              false,
             jezioro:            false,
-            ciecz:              false,
+            ciecz:              true,
             bagna:              false,
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -6363,12 +6373,12 @@ var planszaM4 = {
             jaskinia:           false,
             rzeka:              false,
             jezioro:            false,
-            ciecz:              false,
+            ciecz:              true,
             bagna:              false,
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -6383,12 +6393,12 @@ var planszaM4 = {
             jaskinia:           false,
             rzeka:              false,
             jezioro:            false,
-            ciecz:              false,
+            ciecz:              true,
             bagna:              false,
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -6404,11 +6414,11 @@ var planszaM4 = {
             rzeka:              false,
             jezioro:            false,
             ciecz:              false,
-            bagna:              false,
+            bagna:              true,
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -6421,19 +6431,19 @@ var planszaM4 = {
             roslinnoscBujna:    false,
             przepasc:           false,
             jaskinia:           false,
-            rzeka:              false,
+            rzeka:              true,
             jezioro:            false,
             ciecz:              false,
-            bagna:              false,
+            bagna:              true,
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "2_5": {
-            rownina:            false,
+            rownina:            true,
             wzgorza:            false,
             gory:               false,
             urwisko:            false,
@@ -6448,27 +6458,27 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "2_6": {
-            rownina:            false,
-            wzgorza:            false,
+            rownina:            true,
+            wzgorza:            true,
             gory:               false,
             urwisko:            false,
             roslinnoscRzadka:   false,
-            roslinnoscBujna:    false,
+            roslinnoscBujna:    true,
             przepasc:           false,
             jaskinia:           false,
-            rzeka:              false,
+            rzeka:              true,
             jezioro:            false,
             ciecz:              false,
             bagna:              false,
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -6484,12 +6494,12 @@ var planszaM4 = {
             jaskinia:           false,
             rzeka:              false,
             jezioro:            false,
-            ciecz:              false,
+            ciecz:              true,
             bagna:              false,
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -6504,12 +6514,12 @@ var planszaM4 = {
             jaskinia:           false,
             rzeka:              false,
             jezioro:            false,
-            ciecz:              false,
+            ciecz:              true,
             bagna:              false,
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -6525,11 +6535,11 @@ var planszaM4 = {
             rzeka:              false,
             jezioro:            false,
             ciecz:              false,
-            bagna:              false,
+            bagna:              true,
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -6545,71 +6555,71 @@ var planszaM4 = {
             rzeka:              false,
             jezioro:            false,
             ciecz:              false,
-            bagna:              false,
+            bagna:              true,
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "3_4": {
-            rownina:            false,
+            rownina:            true,
             wzgorza:            false,
             gory:               false,
             urwisko:            false,
             roslinnoscRzadka:   false,
-            roslinnoscBujna:    false,
+            roslinnoscBujna:    true,
             przepasc:           false,
             jaskinia:           false,
-            rzeka:              false,
+            rzeka:              true,
             jezioro:            false,
             ciecz:              false,
             bagna:              false,
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "3_5": {
-            rownina:            false,
+            rownina:            true,
             wzgorza:            false,
             gory:               false,
             urwisko:            false,
             roslinnoscRzadka:   false,
-            roslinnoscBujna:    false,
+            roslinnoscBujna:    true,
             przepasc:           false,
             jaskinia:           false,
             rzeka:              false,
-            jezioro:            false,
+            jezioro:            true,
             ciecz:              false,
             bagna:              false,
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "3_6": {
-            rownina:            false,
-            wzgorza:            false,
+            rownina:            true,
+            wzgorza:            true,
             gory:               false,
             urwisko:            false,
             roslinnoscRzadka:   false,
             roslinnoscBujna:    false,
             przepasc:           false,
             jaskinia:           false,
-            rzeka:              false,
+            rzeka:              true,
             jezioro:            false,
             ciecz:              false,
             bagna:              false,
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -6625,22 +6635,22 @@ var planszaM4 = {
             jaskinia:           false,
             rzeka:              false,
             jezioro:            false,
-            ciecz:              false,
+            ciecz:              true,
             bagna:              false,
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "4_1": {
             rownina:            false,
-            wzgorza:            false,
+            wzgorza:            true,
             gory:               false,
             urwisko:            false,
             roslinnoscRzadka:   false,
-            roslinnoscBujna:    false,
+            roslinnoscBujna:    true,
             przepasc:           false,
             jaskinia:           false,
             rzeka:              false,
@@ -6650,7 +6660,7 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -6666,11 +6676,11 @@ var planszaM4 = {
             rzeka:              false,
             jezioro:            false,
             ciecz:              false,
-            bagna:              false,
+            bagna:              true,
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -6686,11 +6696,11 @@ var planszaM4 = {
             rzeka:              false,
             jezioro:            false,
             ciecz:              false,
-            bagna:              false,
+            bagna:              true,
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -6703,39 +6713,39 @@ var planszaM4 = {
             roslinnoscBujna:    false,
             przepasc:           false,
             jaskinia:           false,
-            rzeka:              false,
+            rzeka:              true,
             jezioro:            false,
             ciecz:              false,
-            bagna:              false,
+            bagna:              true,
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "4_5": {
-            rownina:            false,
+            rownina:            true,
             wzgorza:            false,
             gory:               false,
             urwisko:            false,
             roslinnoscRzadka:   false,
-            roslinnoscBujna:    false,
+            roslinnoscBujna:    true,
             przepasc:           false,
             jaskinia:           false,
-            rzeka:              false,
+            rzeka:              true,
             jezioro:            false,
             ciecz:              false,
             bagna:              false,
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "4_6": {
-            rownina:            false,
+            rownina:            true,
             wzgorza:            false,
             gory:               false,
             urwisko:            false,
@@ -6743,14 +6753,14 @@ var planszaM4 = {
             roslinnoscBujna:    false,
             przepasc:           false,
             jaskinia:           false,
-            rzeka:              false,
+            rzeka:              true,
             jezioro:            false,
             ciecz:              false,
             bagna:              false,
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -6766,12 +6776,12 @@ var planszaM4 = {
             jaskinia:           false,
             rzeka:              false,
             jezioro:            false,
-            ciecz:              false,
+            ciecz:              true,
             bagna:              false,
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -6787,11 +6797,11 @@ var planszaM4 = {
             rzeka:              false,
             jezioro:            false,
             ciecz:              false,
-            bagna:              false,
+            bagna:              true,
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -6807,11 +6817,11 @@ var planszaM4 = {
             rzeka:              false,
             jezioro:            false,
             ciecz:              false,
-            bagna:              false,
+            bagna:              true,
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -6827,11 +6837,11 @@ var planszaM4 = {
             rzeka:              false,
             jezioro:            false,
             ciecz:              false,
-            bagna:              false,
+            bagna:              true,
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
@@ -6847,17 +6857,17 @@ var planszaM4 = {
             rzeka:              false,
             jezioro:            false,
             ciecz:              false,
-            bagna:              false,
+            bagna:              true,
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "5_5": {
-            rownina:            false,
-            wzgorza:            false,
+            rownina:            true,
+            wzgorza:            true,
             gory:               false,
             urwisko:            false,
             roslinnoscRzadka:   false,
@@ -6871,27 +6881,27 @@ var planszaM4 = {
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },
         "5_6": {
             rownina:            false,
-            wzgorza:            false,
+            wzgorza:            true,
             gory:               false,
             urwisko:            false,
             roslinnoscRzadka:   false,
-            roslinnoscBujna:    false,
+            roslinnoscBujna:    true,
             przepasc:           false,
             jaskinia:           false,
-            rzeka:              false,
+            rzeka:              true,
             jezioro:            false,
             ciecz:              false,
             bagna:              false,
             lodowiec:           false,
             plynnaLawa:         false,
             zastyglaLawa:       false,
-            budowlaObcuch:      false,
+            budowlaObcych:      false,
             miastoObcych:       false
 
         },

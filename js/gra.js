@@ -87,6 +87,23 @@ Odkrywcy.Gra = (function ($) {
                     terenTekst += prop + "<br />";
                 }
             }
+            terenTekst = terenTekst.replace('rownina', 'Równina');
+            terenTekst = terenTekst.replace('wzgorza', 'Wzgórza');
+            terenTekst = terenTekst.replace('gory', 'Góry');
+            terenTekst = terenTekst.replace('urwisko', 'Urwisko');
+            terenTekst = terenTekst.replace('roslinnoscRzadka', 'Rzadka roślinność');
+            terenTekst = terenTekst.replace('roslinnoscBujna', 'Bójna roślinność');
+            terenTekst = terenTekst.replace('przepasc', 'Przepaść');
+            terenTekst = terenTekst.replace('jaskinia', 'Jaskinia');
+            terenTekst = terenTekst.replace('rzeka', 'Rzeka');
+            terenTekst = terenTekst.replace('jezioro', 'Jezioro');
+            terenTekst = terenTekst.replace('ciecz', 'Ciecz');
+            terenTekst = terenTekst.replace('bagna', 'Bagna');
+            terenTekst = terenTekst.replace('lodowiec', 'Lodowiec');
+            terenTekst = terenTekst.replace('plynnaLawa', 'Płynna lawa');
+            terenTekst = terenTekst.replace('zastyglaLawa', 'Zastygła lawa');
+            terenTekst = terenTekst.replace('budowlaObcych', 'Budowla Obcych');
+            terenTekst = terenTekst.replace('miastoObcych', 'Miasto Obcych');
             return terenTekst;
         };
 
