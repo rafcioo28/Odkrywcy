@@ -56,7 +56,14 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+   @font-face {
+       font-family: 'courier_prime';
+       src: url('../font/courier_prime_code-webfont.woff2') format('woff2'),
+            url('../font/courier_prime_code-webfont.woff') format('woff');
+       font-weight: normal;
+       font-style: normal;
 
+   }
 
 
 

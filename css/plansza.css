@@ -34,6 +34,15 @@
     fill-opacity: 0.6;
 }
 
+#terenTooltip {
+    position: absolute;;
+    top 10;
+    left: 520px;
+    font-family: 'courier_prime';
+    display: none;
+    background-color: #fff;
+    z-index: 100;
+}
 
 
 
@@ -43,11 +52,7 @@
     bottom: 0;
     left: 10px;
 }
-#teren {
-    position: absolute;;
-    top 10;
-    left: 520px;
-}
+
 
 
 #koordynatyWybrane {

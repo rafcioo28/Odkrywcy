@@ -15,8 +15,20 @@ Odkrywcy.Gra = (function ($) {
             wczytajMape("m1");
             $("#siatka g").click(zaznaczHexa);  // klikniecie hexa
             $("#siatka g").mouseenter(wybierzHexa);
+            $("#siatka").mouseleave(function (){
+                $('#terenTooltip').css({
+                    'display': 'none'
+                });
+            });
             $("#wyborMapy select").change(function () {
                 wczytajMape($(this).val());
+                $("#siatka g").click(zaznaczHexa);  // klikniecie hexa
+                $("#siatka g").mouseenter(wybierzHexa);
+                $("#siatka").mouseleave(function (){
+                    $('#terenTooltip').css({
+                        'display': 'none'
+                    });
+                });
             });
         };
 
@@ -42,6 +54,8 @@ Odkrywcy.Gra = (function ($) {
         // ***************************** funkcja obsługujące najazd na hexa by określić wspórzędne
         var wybierzHexa = function(e) {
             var wskazanyHex = {};
+            var mysz_X;
+            var mysz_Y;
             wskazanyHex.id = e.currentTarget.id;
             var koordynaty = wskazanyHex.id.split("_");
             koordynaty[0] = parseInt(koordynaty[0]);
@@ -51,8 +65,29 @@ Odkrywcy.Gra = (function ($) {
             wskazanyHex.y = -wskazanyHex.x - wskazanyHex.z;
             $('#koordynatyWskazane span').html("x: " + wskazanyHex.x + " y: " + wskazanyHex.y + " z: " + wskazanyHex.z); // do usunięcia test wskazywanych koordynatwó siatki
             $('#odlegloscMiedzyHexami span').html(odlegloscMiedzyHexami(wybranyHex, wskazanyHex));
+            $('#terenTooltip').html(pobierzTerenHexa(wskazanyHex));
+            $('#' + wskazanyHex.id).mousemove( function(m){
+                    mysz_X = m.pageX;
+                    mysz_Y = m.pageY;
+                    $(this).mousemove( function () {
+                        $('#terenTooltip').css({
+                            'top': mysz_Y + 20,
+                            'left': mysz_X + 20,
+                            'display': 'block'
+                        });
+                    });
+            });
             oznaczTrase(wybranyHex, wskazanyHex);
+        };
 
+        var pobierzTerenHexa = function(Hex) {  //Funkcja pobierająca dane o terenie wybranego hexa
+            var terenTekst = '';
+            for (let prop in teren[Hex.id]) {
+                if(teren[Hex.id][prop] === true){
+                    terenTekst += prop + "<br />";
+                }
+            }
+            return terenTekst;
         };
 
         var pobierzIdHexa = function(e) {
